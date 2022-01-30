@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="sectionLeft">
+            <div class="odinHeading">
+                <img class="odinLogo" alt="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                <h1 class="odinName">Odin</h1>
+            </div>
+            <div class="imageCreditDiv">
+                <p class="imageCredit">
+                    Photo by&nbsp; <a class="creditLink" target="_blank" href="https://unsplash.com/@lgnwvr">Logan Weaver</a> &nbsp;on&nbsp; <a class="creditLink" target="_blank" href="http://www.unsplash.com">Unsplashed</a>
+                </p>
+            </div>
+        </section>
+        <section class="sectionRight">
+            <div class="formPara">
+                <p>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form>
+                <div class="mainFormContent">
+                    <h2>Let's do this!</h2>
+                    <div class="inputs">
+                        <div class="inputContainer">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" id="firstName">
+                        </div>
+                        <div class="inputContainer">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" id="lastName" autofocus>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="inputContainer">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="passwordContainer">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required>
+                                <p class="passwordError">* Passwords do not match</p>
+                            </div>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="formSubmit">Create Account</button>
+            </form>
+            <p class="accountRecover">Already have an account? <a class="recoverLink" target="_blank" href="">Log In</a></p>
+        </section>
+    </main>
+</body>
+</html>
